@@ -1,0 +1,13 @@
+﻿
+
+
+############   Need to Install
+
+Microsoft.EntityFrameworkCore.Tools
+
+Pomelo.EntityFrameworkCore.MySql
+
+############  Script to run in Package manager Console
+
+
+Scaffold-DbContext "Server=localhost;User Id=root;Password=123456;Database=unasp" "Pomelo.EntityFrameworkCore.MySql" -OutputDir Mysql
